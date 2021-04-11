@@ -5,173 +5,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Podcast</title>
+     <!-- linkeo a google fonts IBM Mono -->
+     <link rel="preconnect" href="https://fonts.gstatic.com" />
+     <link
+       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap"
+       rel="stylesheet"
+     />
+     <!-- linkeo a google fonts IBM Plex Sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- linkeo a google fonts IBM Plex Mono Medium -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- linkeo a google fonts IBM Plex Sans Semi-bold-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aca linkeo a font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/9c540da863.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- linkeo a mis hojas de Css -->
+    <link rel="stylesheet" href="css/general.scss" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/menu.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <img class="logo" src="./images/logo.svg" alt="Logo bd" />
-        <div class="menu-wrap">
-          <input type="checkbox" class="toggler" />
+    <div class="container">
+      <header>
+        <nav>
+          <img class="logo" src="./images/logo.svg" alt="Logo bd" />
+          <div class="menu-wrap">
+            <input type="checkbox" class="toggler" />
 
-          <div class="hamburger"><div></div></div>
-          <div class="menu">
-            <ul class="expanded">
-              <li><a href="#">EPISODIOS</a></li>
-              <li><a href="#"> NOSOTROS</a></li>
-              <li><a href="#"> ENTREVISTAS</a></li>
-              <li><a href="#"> TÓPICOS</a></li>
-            </ul>
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <!-- <div>
+                <div> -->
+                  <ul>
+                    <li><a href="#">EPISODIOS</a></li>
+                    <li><a href="#"> NOSOTROS</a></li>
+                    <li><a href="#"> ENTREVISTAS</a></li>
+                    <li><a href="#"> TÓPICOS</a></li>
+                  </ul>
+                <!-- </div>
+              </div> -->
+            </div>
           </div>
-        </div>
-      </nav>
-      <section>
-        <div class="title">
-          <h1>
-            Hello <span>world</span> pale blue dot<span class="dot">.</span>
-          </h1>
-        </div>
-        <div class="subtitle">
-          <h3>
-            Un podcast que explora el mundo de la programación
-            <span class="tecno">y la tecnología</span> . Nuevos episodios, todos
-            los jueves cada 15 días.
-          </h3>
-        </div>
+        </nav>
+        <section>
+          <div>
+            <h1>
+              Hello <span>world</span> pale blue dot<span class="dot">.</span>
+            </h1>
+          </div>
+          <div class="subtitle">
+            <h3>
+              Un podcast que explora el mundo de la programación<span class="tecno"> y la tecnología</span>. Nuevos episodios,
+              todos los jueves cada 15 días.
+            </h3>
+          </div>
 
-        <button>CONOCÉ MÁS</button>
-      </section>
-    </header>
+          <button>CONOCÉ MÁS</button>
+        </section>
+      </header>
 
-    <main>
-      <section>
-        <div class="blue-back blue-container">
-          <h2>Episodios</h2>
-          <div class="iframes">
-            <iframe
-              src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
-              allow="encrypted-media"
-            ></iframe>
-            <iframe
-              src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
-              allow="encrypted-media"
-            ></iframe>
-            <iframe
-              src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
-              allow="encrypted-media"
-            ></iframe>
-            <iframe
-              src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
-              allow="encrypted-media"
-            ></iframe>
+      <main>
+        <section>
+          <div class="blue-back blue-container">
+            <h2>Episodios</h2>
+            <div class="iframes">
+              <iframe
+                src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                allow="encrypted-media"
+              ></iframe>
+              <iframe
+                src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                allow="encrypted-media"
+              ></iframe>
+              <iframe
+                src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                allow="encrypted-media"
+              ></iframe>
+              <iframe
+                src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div class="where-container">
-          <img class="phone" src="./images/phone.png" alt="Phone" />
-        </div>
-        <div class="where-title">
-          <h2 class="where">De dónde venimos</h2>
-        </div>
-        <div class="where-p">
-          <p class="where-text">
-            Our posturings, our imagined self-importance, the delusion that we
-            have some privileged position in the Universe, are challenged by
-            this point of pale light. Our planet is a lonely speck in the great
-            enveloping cosmic dark. In our obscurity, in all this vastness,
-            there is no hint that help will come from elsewhere to save us from
-            ourselves.
-          </p>
-        </div>
-      </section>
-      <section>
-        <div class="invited-container">
-          <h2 class="invited">Invitadas/os estelares</h2>
-        </div>
-        <div class="main-images">
-          <img
-            class="invited-img"
-            src="./images/grace-hopper.png"
-            alt="Grace Hopper"
-          />
-          <img
-            class="invited-img"
-            src="./images/Katie-Bouman.png"
-            alt="Katie Bouman"
-          />
-          <img
-            class="invited-img"
-            src="./images/Margaret_Hamilton.png"
-            alt="Margaret Hamilton"
-          />
-          <img
-            class="invited-img"
-            src="./images/An_E.R.A.Univac.png"
-            alt="E.R.A. Univac 1103"
-          />
-          <img
-            class="invited-img"
-            src="./images/Computer_operators.png"
-            alt="Computer operators"
-          />
-          <img
-            class="invited-img"
-            src="./images/susan-kare.png"
-            alt="Susan Kare"
-          />
-        </div>
-      </section>
-      <section>
-        <h2 class="themes">Algunos de nuestros temas</h2>
-        <article class="icon-container">
-          <div class="icon">
-            <img src="./images/icon1.svg" alt="Trabajo remoto" />
-            <p>Trabajo remoto</p>
+        </section>
+        <section>
+          <div class="where-container">
+            <img class="phone" src="./images/phone.png" alt="Phone" />
           </div>
-          <div class="icon">
-            <img src="./images/icon2.svg" alt="Repensando la programación" />
-            <p>Repensando la programación</p>
+          <div class="where-title">
+            <h2 class="where">De dónde venimos</h2>
           </div>
-          <div class="icon">
-            <img src="./images/icon3.svg" alt="Bases del código" />
-            <p>Bases del código</p>
+          <div class="where-p">
+            <p class="where-text">
+              Our posturings, our imagined self-importance, the delusion that we
+              have some privileged position in the Universe, are challenged by
+              this point of pale light. 
+              </p>
+              <p>
+              Our planet is a lonely speck in the
+              great enveloping cosmic dark. In our obscurity, in all this
+              vastness, there is no hint that help will come from elsewhere to
+              save us from ourselves.
+            </p>
           </div>
-          <div class="icon">
-            <img src="./images/icon4.svg" alt="Seguridad informática" />
-            <p>Seguridad informática</p>
+        </section>
+        <section>
+          <div class="invited-container">
+            <h2 class="invited">Invitadas/os estelares</h2>
           </div>
-        </article>
-      </section>
-      <section>
-        <div class="blue-back2">
-          <div class="novelties-container">
-            <h2 class="novelties">¿Querés las últimas novedades?</h2>
-            <button class="novelties-btn">ESCUCHÁ LOS EPISODIOS</button>
+          <div class="main-images">
+            <img
+              class="invited-img"
+              src="./images/grace-hopper.png"
+              alt="Grace Hopper"
+            />
+            <img
+              class="invited-img"
+              src="./images/Katie-Bouman.png"
+              alt="Katie Bouman"
+            />
+            <img
+              class="invited-img"
+              src="./images/Margaret_Hamilton.png"
+              alt="Margaret Hamilton"
+            />
+            <img
+              class="invited-img"
+              src="./images/An_E.R.A.Univac.png"
+              alt="E.R.A. Univac 1103"
+            />
+            <img
+              class="invited-img"
+              src="./images/Computer_operators.png"
+              alt="Computer operators"
+            />
+            <img
+              class="invited-img"
+              src="./images/susan-kare.png"
+              alt="Susan Kare"
+            />
           </div>
+        </section>
+        <section>
+          <div class="themes">
+          <h2>Algunos de nuestros temas</h2>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="copy-container">
-        <p class="copy">© 2021— Hello blue pale dot</p>
-      </div>
-      <ul class="media-icons">
-        <li><a href="#"></a><i class="fab fa-2x fa-spotify contacts"></i></li>
-        <li>
-          <a href="#"></a><i class="fab fa-2x fa-instagram iconos contacts"></i>
-        </li>
-        <li>
-          <a href="#"></a
-          ><i class="fab fa-2x fa-twitter-square iconos contacts"></i>
-        </li>
-        <li>
-          <a href="#"></a
-          ><i class="fab fa-2x fa-facebook-square iconos contacts"></i>
-        </li>
-        <li>
-          <a href="#"></a><i class="fas fa-2x fa-paper-plane contacts"></i>
-        </li>
-      </ul>
-    </footer>
+          <article class="icon-container">
+            <div class="icon">
+              <img src="./images/icon1.svg" alt="Trabajo remoto" />
+              <p>Trabajo remoto</p>
+            </div>
+            <div class="icon">
+              <img src="./images/icon2.svg" alt="Repensando la programación" />
+              <p>Repensando la programación</p>
+            </div>
+            <div class="icon">
+              <img src="./images/icon3.svg" alt="Bases del código" />
+              <p>Bases del código</p>
+            </div>
+            <div class="icon">
+              <img src="./images/icon4.svg" alt="Seguridad informática" />
+              <p>Seguridad informática</p>
+            </div>
+          </article>
+        </section>
+        <section>
+          <div class="blue-back2">
+            <div class="novelties-container">
+              <h2 class="novelties">¿Querés las últimas novedades?</h2>
+              <button class="novelties-btn">ESCUCHÁ LOS EPISODIOS</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="copy-container">
+          <p class="copy">© 2021— Hello blue pale dot</p>
+        </div>
+        <ul class="media-icons">
+          <li><a href="#"></a><i class="fab fa-2x fa-spotify contacts"></i></li>
+          <li>
+            <a href="#"></a
+            ><i class="fab fa-2x fa-instagram iconos contacts"></i>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=es"></a
+            ><i class="fab fa-2x fa-twitter-square iconos contacts"></i>
+          </li>
+          <li>
+            <a href="https://es-la.facebook.com/"></a
+            ><i class="fab fa-2x fa-facebook-square iconos contacts"></i>
+          </li>
+          <li>
+            <a href="#"></a><i class="fas fa-2x fa-paper-plane contacts"></i>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>

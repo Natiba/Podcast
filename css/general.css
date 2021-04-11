@@ -1,0 +1,27 @@
+
+/* // $menu-subtitle: 'IBM Plex Mono', monospace;
+// $title: 'IBM Plex Sans', sans-serif;
+// $btn-font: 'IBMPlexMono', medium;
+
+// $blue-back:  linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+// $blue-color:  #0000EC;
+// $white-color: #FFFFFF;
+// $text-color: #060A24; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+
+/* .container {
+    background: #FFFFFF;
+    width: 100%;
+    /* max-width: 1800px; */
+    /* margin: auto; */
+    /* display: flex; */
+   /* ver aca si agrego algo de wrap, row, etc */
+/* } */ */
+
