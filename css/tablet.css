@@ -1,9 +1,10 @@
-@media screen and (min-width: 321px) and (max-width: 1439px) {
+@media screen and (min-width: 600px) and (max-width: 750px) {
     .container {
         display: flex;
 		flex-direction:column;
         width: 100%;
-        max-height: 4000px;
+        /* max-height: 4000px; */
+        height: 100vh;
 	}
     
     header {
@@ -38,6 +39,7 @@
         margin-top: -90px; 
         margin-left: 20%;
         justify-content: flex-end;
+        padding-top: 15px;
         /* margin: 0; */
     }
 
@@ -64,8 +66,8 @@
     header section div {
         width: 90%;
         height: 84px;
-        margin: 5%;
-        padding-bottom: 16px;
+        margin: 13%;
+        padding-bottom: 14px;
         /* position: relative; */
         margin-top: 29px;
     }
@@ -84,35 +86,35 @@
         text-decoration-color: #0000EC;
     }
 
+    h1 .dot {
+        text-decoration: none;
+    }
+
+    .subtitle {
+        width: 75%;
+        height: 50px;
+        margin: 13%;
+        /* position: relative; */
+        margin-top: -80px;
+    }
+
+    header h3 {
+        font-family: 'IBM Plex Mono';
+        font-size: 0.75em;
+        color: #060A24;
+        letter-spacing: 1.6px;
+        line-height: 22px;
+    }
 
 
 
-h1 .dot {
-    text-decoration: none;
-}
-
-.subtitle {
-    width: 60%;
-    height: 50px;
-    margin: 5%;
-    /* position: relative; */
-    margin-top: 4px;
-}
-
-header h3 {
-    font-family: 'IBM Plex Mono';
-    font-size: 0.875em;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 22px;
-}
 
 
 header button {
     background: #00F3BB;
-    width: 90%;
+    width: 25%;
     height: 48px;
-    margin: 5%;
+    margin: 13%;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1em;
     color: #060A24;
@@ -120,7 +122,7 @@ header button {
     text-align: center;
     line-height: 22px;
     border: none;
-    margin-top: 36px;
+    margin-top: -46px;
 }
 
 /* -- Acá termina header -- */
@@ -135,8 +137,8 @@ main {
 .blue-back {
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     width: 100%;
-    height: 1203.5px;
-    clip-path: polygon(0 34px, 100% 0%, 100% 96%, 0% 100%);
+    height: 1000px;
+    clip-path: polygon(0 12%, 100% 0%, 100% 90%, 0% 100%);
     z-index: -1;
     /* display: flex; */
     /* align-items: center;
@@ -150,88 +152,102 @@ main h2 {
     color: #FFFFFF;
     letter-spacing: 0;
     line-height: 42px;
-    margin: 16px;
+    margin: 4.8%;
     margin-top: 64px;
     z-index: 1;
+    padding-top: 140px;;
 }
 
 .iframes {
-    width: 100%;
+    width: 50% 50%;
     height: 933px;
     bottom: 11px;
     overflow: hidden;
-    /* align-items: stretch; */
 }
 
 iframe {
-    height: 225px;
+    height: 240px;
     border: none;
-    margin-top: 11px;
-    width: 93.1%;
-    margin: 3.4%;
+    margin-top: 10px;
+    width: 40%;
+    margin: 4.8%;
+}
+
+.where-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .phone {
-    width: 112.5%;
-    height: 519px;
+    width: 35%;
+    height: auto;
     position: absolute;
-    margin-top: -90px;
-    margin-left: -20px;
+    margin-top: -150px;
+    margin-left: 7%;
     z-index: 6;
 }
 
 .where-title {
-    width: 90%;
-    height: 84px;
+    width: 100%;
+    height: 60px;
     position: relative;
-    margin-top: 470px;
+    margin-top: -97.5%;
+}
+ 
+.where span {
+    color: #FFFFFF;
 }
 
 .where {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
+    font-size: 2.5em;
     color: #060A24;
     letter-spacing: 0;
-    line-height: 42px;
-    margin: 16px;
+    line-height: 45px;
+    margin: 48%;
 }
 
 .where-p {
-    width: 90%;
-    height: 254px;
+    width: 52%;
+    height: 204px;
     position: relative;
-    margin: 16px;
+    margin: 45%;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
+    font-size: 0.625em;
     color: #060A24;
     letter-spacing: 0;
-    line-height: 22px;
+    line-height: 20px;
+    margin-top: 224px;
 }
 
 .invited-container {
-    width: 90%;
-    height: 84px;
     position: relative;
-    /* margin-top: 804px; */
+    margin-top: -404px;
 }
+    
 
-.invited {
+.invited-container h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
+    font-size: 2.5em;
     color: #060A24;
     letter-spacing: 0;
     line-height: 42px;
 }
 
 .main-images {
+    display: flex;
     width: 100%;
-    position: relative;
+    flex-flow: column wrap;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* position: relative; */
     /* margin-top: 84px; */
 }
 
 .invited-img {
-  width: 100%;
-  height: 243px; 
+  width: 45%;
+  height: auto; 
   display: block; 
 }
 
