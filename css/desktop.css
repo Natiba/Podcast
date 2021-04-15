@@ -6,6 +6,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: center;
+        font-family: 'IBM Plex Mono';
     }
 
     header nav img {
@@ -30,17 +31,15 @@
     
     header nav ul li a {
         text-decoration: none;
-        font-family: 'IBM Plex Mono';
         font-size: 1em;
         color: #060A24;
         letter-spacing: 0;
-        line-height: 28px;
+        line-height: 1.75em;
         align-self: space-between;
         
     }
 
     a:hover {
-        font-family: 'IBM Plex Mono';
         font-weight: medium;
         color: #00F3BB;
     }
@@ -63,12 +62,12 @@
         flex-flow: column nowrap;
         justify-content: flex-end;
         padding-left: 13.8%;
+        color: #060A24;
     }
         
     header section h1 {
         font-family: 'IBM Plex Sans';
         font-size: 4em;
-        color: #060A24;
         letter-spacing: 0;
         margin-bottom: 2px;
     }
@@ -91,9 +90,8 @@
       header section h3 {
         font-family: 'IBM Plex Mono';
         font-size: 1em;
-        color: #060A24;
         letter-spacing: 0.04em;
-        line-height: 24px;
+        line-height: 1.5em;
       } 
 
 header section button {
@@ -102,9 +100,9 @@ header section button {
     border: none;
     background: #00F3BB;
     margin-bottom: 5px;
-    font-family: 'IBM Plex Mono' Medium;
+    font-family: 'IBM Plex Mono';
+    font-weight: medium;
     font-size: 1.125em;
-    color: #060A24;
     letter-spacing: 0;
     text-align: center;
     line-height: 24px;
