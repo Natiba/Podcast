@@ -1,14 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 749px) {
-    /* header nav {
-        width: 100%;
-        height: 44px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: center;
-        /* font-family: 'IBM Plex Mono'; */
-        /*  */
-    /* }  */
+   
 
     body {
         max-height: 5437px;
@@ -16,13 +7,11 @@
 
     nav {
         width: 100%;
-        height: 14vh;
+        height: 12vh;
         display: flex;
         flex-wrap: nowrap;
         align-content: center;
         justify-content: space-between;
-        /* gap: 90%; */
-        background-color: pink;
    }
 
     header nav img {
@@ -55,7 +44,7 @@
         align-content: center;
         padding-left: 5%;
         color: #060A24;
-        background-color: red;
+       
     }
         
     header section h1 {
@@ -111,20 +100,8 @@ header section button {
     
    main {
        width: 100%;
-       background-color: lightblue;
-       margin-top: 0;
-       display: flex;
-       flex-flow: column wrap;
+       margin-top: -30px;
    } 
-
-   main section:nth-of-type(1) {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    /* align-content: center; */
-    /* align-content: center; */
-    width: 100%;background-color: pink;
-}
 
    main section .blue-container {
        width: 100%;
@@ -132,7 +109,8 @@ header section button {
        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
        clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
        position: relative;
-       margin-top: 0;
+       
+       /* z-index: 1; */
    }
 
    .episode-title {
@@ -162,8 +140,6 @@ header section button {
        border: none;
        display: inline-block;
        padding: 5%;
-       /* padding-bottom: 11px */
-       /* gap: 91px; */
    }
 
 /* --> Phone Section */
@@ -172,55 +148,44 @@ header section button {
        display: flex;
        flex-flow: column wrap;
        width: 100%;
-       align-items: center;
-       align-content: center;
-       justify-content: center;
        color: #060A24;
-       letter-spacing: 0;
-       background-color: green
+       letter-spacing: 0em;
     }
        
-    /* main section:nth-of-type(2) article {
-        width: 100%;
-        /* padding-left: 4.3%; */
-    }    */
+     main section:nth-of-type(2) article {
+       width: 95%;
+       margin-left: 5%; 
+       margin-top: -20px; 
+     }   
    
-   main section:nth-of-type(2) img {
-       width: 100%;
-       /* position: absolute; */
-       align-items: center;
-       justify-content: center;
-       align-content: center;
-       height: auto;
-       margin-top: 80px;
-       /* margin-left: -32.5% */
-       margin-left: 0
-   }
-
+  main section:nth-of-type(2) img {
+      width: 100%;
+   } 
+      
    main section:nth-of-type(2) > div:first-child {
-    width: 50%;
-    padding-left: 13.9%;
-    margin-top: -172px;
+    width: 100%;
+    margin-top: -110px;
     z-index: 10;
+} 
+    
+main section:nth-of-type(2) h2 {
+    font-family: 'IBM Plex Sans';
+    font-size: 2.25em;
+    line-height: 42px;
 }
-   main section:nth-of-type(2) h2 {
-       font-family: 'IBM Plex Sans';
-       font-size: 2.25em;
-       line-height: 42px;
-   }
 
-   main section:nth-of-type(2) p {
-   font-family: 'IBM Plex Mono';
-   font-size: 1em;
-   line-height: 24px;
+main section:nth-of-type(2) p {
+font-family: 'IBM Plex Mono';
+font-size: 0.875em;
+line-height: 22px;
 }
 .where-p {
-    width: 72.2%;
-    height: 204px;
+ width: 100%;
+ height: 254px;
 }
-
+    
 /* --> Invited Section */
-
+       
 main section:nth-of-type(3) {
     display: flex;
     flex-flow: column wrap;
@@ -236,9 +201,9 @@ main section:nth-of-type(3) h2 {
     font-family: 'IBM Plex Sans';
     font-size: 2.25em;
     line-height: 42px;
-    margin-left: 200px;
+    margin-left: 5%; 
 }
-
+   
 main section:nth-of-type(3) > div {
     line-height: 0;
     font-size: 0;
@@ -266,33 +231,31 @@ main section:nth-of-type(4) h2 {
     font-size: 2.25em;
     margin-left: 5%;
     width: 100%;
+    padding-bottom: 37px;
 }
 
 main section:nth-of-type(4) article {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    margin-left: 33.8%;
-    /* gap: 22%; */
-    margin: 0 13.9%;
+    margin: 37px 33.8% 42px 33.8%;
 }
 
 main section:nth-of-type(4) p {
     font-family: 'IBM Plex Sans';
     font-weight: semibold;
     font-size: 1.5em;
-    text-align: center;
-    width: 90%;
+    width: 160%;
+    margin-left: -25%;
 } 
 
 /* --> Novelties Section */
    
 main section:nth-of-type(5) {
     width: 100%;
-    height: 518px;
+    height: 341px;
     color: #060A24;
     letter-spacing: 0;
+    margin-top: -70px;
 }
 
 main section:nth-of-type(5) > div {
@@ -320,50 +283,58 @@ main section:nth-of-type(5) button {
     margin-left: 5%;
 }
 
- /* -- here ends main -- */
+/* -- here ends main -- */
 
-/* footer {
+
+
+
+
+
+ 
+footer {
     width: 100%;
-    height: 95px;
     color: #060A24;
     display: flex;
-    flex-flow: column wrap;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     letter-spacing: 0;
-    line-height: 1.75em;
-    background-color: red;
 }
 
 footer p {
     font-family: 'IBM Plex Mono';
-    font-size: 1em;
-    margin-left: 30.9%;
+    font-size: 0.875em;
+    margin: 14.7%;
     width: 100%;
+    line-height: 22px;
 }
     
 footer ul li  {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    /* align-content: flex-end; */
-    /* padding: 18%; */
-/* } */
+    flex-wrap: nowrap;
+    justify-content: space-between;
+     align-content: center;
+     padding: 20%;
+    
+}
 
 footer i  {
-    font-size: 1.125em;
+    font-size: 1em;
     font-family: 'Font Awesome 5 Brands';
     font-weight: regular;
     color: #060A24;
+    line-height: 28px;
+    
 }
 
 footer ul {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-flow: row nowrap;
     list-style: none;
-    margin-left: 60%;
-} 
+}
     
+
 }
     
