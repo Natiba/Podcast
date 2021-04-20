@@ -210,6 +210,11 @@ iframe {
      line-height: 40px;
      margin-left: 2%;
  }
+
+ main section:nth-of-type(3) .main-images {
+    line-height: 0;
+    font-size: 0;
+}
  
  main section:nth-of-type(3) img {
      width: 50%;
